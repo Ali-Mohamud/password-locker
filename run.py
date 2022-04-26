@@ -1,11 +1,11 @@
-# from user import User
-# from credential import Credential
+from user import User
+from credential import Credential
 
-# def create_user(name, password):
+def create_user(name, password):
 
-#     new_user = User(name,password)
+    new_user = User(name,password)
 
-#     return new_user
+    return new_user
 
 # def save_users(user):
 
