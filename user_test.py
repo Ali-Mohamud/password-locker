@@ -19,21 +19,21 @@ class TestUser(unittest.TestCase):
         self.assertEqual( self.new_user.user_name, "ahmed" )
         self.assertEqual( self.new_user.user_password, "ali" )
 
-#     def test_save_user(self):
+    def test_save_user(self):
 
-#         self.new_user.save_user()
+        self.new_user.save_user()
 
-#         self.assertEqual( len(User.user_list), 1 )
+        self.assertEqual( len(User.user_list), 1 )
 
-#     def test_save_multiple_users(self):
+    def test_save_multiple_users(self):
 
-#         self.new_user.save_user()
+        self.new_user.save_user()
 
-#         test_user = User("mary","david")
+        test_user = User("mary","david")
 
-#         test_user.save_user()
+        test_user.save_user()
 
-#         self.assertEqual( len(User.user_list), 2)
+        self.assertEqual( len(User.user_list), 2)
 
 #     def test_find_credential(self):
 
