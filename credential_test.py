@@ -2,24 +2,24 @@
 import unittest
 from credential import Credential
 
-# class TestCredential(unittest.TestCase):
+class TestCredential(unittest.TestCase):
    
 
-#     def setUp(self):
+    def setUp(self):
         
 
         
-#         self.new_credential = Credential("ali","moo","4545")
+        self.new_credential = Credential("ali","moo","4545")
 
-#     def tearDown(self):
+    def tearDown(self):
         
-#         Credential.credential_list = []
+        Credential.credential_list = []
 
-#     def test_init(self):
+    def test_init(self):
        
-#         self.assertEqual( self.new_credential.user_password, "ali")
-#         self.assertEqual( self.new_credential.credential_name, "moo" )
-#         self.assertEqual( self.new_credential.credential_password, "4545" )
+        self.assertEqual( self.new_credential.user_password, "ali")
+        self.assertEqual( self.new_credential.credential_name, "moo" )
+        self.assertEqual( self.new_credential.credential_password, "4545" )
 
 #     def test_save_credential(self):
       
