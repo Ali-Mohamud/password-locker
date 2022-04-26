@@ -35,46 +35,46 @@ class TestUser(unittest.TestCase):
 
         self.assertEqual( len(User.user_list), 2)
 
-#     def test_find_credential(self):
+    def test_find_credential(self):
 
-#         self.new_user.save_user()
+        self.new_user.save_user()
 
-#         test_user = User("mary","david")
+        test_user = User("mary","david")
 
-#         test_user.save_user()
+        test_user.save_user()
 
-#         found_credential = User.find_credential("moo")
+        found_credential = User.find_credential("moo")
 
-#         self.assertEqual( found_credential, False )
+        self.assertEqual( found_credential, False )
 
-#     def test_log_in(self):
-#         self.new_user.save_user()
+    def test_log_in(self):
+        self.new_user.save_user()
 
-#         test_user = User("mary","david")
+        test_user = User("mary","david")
 
-#         test_user.save_user()
+        test_user.save_user()
 
-#         found_credential = User.log_in("mary", "david")
+        found_credential = User.log_in("mary", "david")
 
-#         self.assertEqual( found_credential,  Credential.credential_list )   
+        self.assertEqual( found_credential,  Credential.credential_list )   
     
-#     def test_display_user(self):
+    def test_display_user(self):
         
         
-#         self.assertEqual( User.display_user() , User.user_list )
+        self.assertEqual( User.display_user() , User.user_list )
         
-#     def test_user_exist(self):
+    def test_user_exist(self):
         
 
-#         self.new_user.save_user()
+        self.new_user.save_user()
 
-#         test_user = User("mary","david")
+        test_user = User("mary","david")
 
-#         test_user.save_user()
+        test_user.save_user()
         
-#         user_exists = User.user_exist("mary")
+        user_exists = User.user_exist("mary")
         
-#         self.assertTrue(user_exists)
+        self.assertTrue(user_exists)
 
 
 # if __name__ == '__main__':
