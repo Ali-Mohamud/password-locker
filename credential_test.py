@@ -1,6 +1,6 @@
 
-# import unittest
-# from credential import Credential
+import unittest
+from credential import Credential
 
 # class TestCredential(unittest.TestCase):
    
