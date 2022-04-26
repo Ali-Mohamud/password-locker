@@ -80,5 +80,5 @@ class TestCredential(unittest.TestCase):
         self.assertTrue(credential_exists)
         
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
