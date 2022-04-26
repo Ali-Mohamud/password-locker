@@ -3,21 +3,21 @@ from user import User
 from credential import Credential
 
 
-# class TestUser(unittest.TestCase):
+class TestUser(unittest.TestCase):
 
-#     def setUp(self):
+    def setUp(self):
 
-#         self.new_user = User("ahmed","ali")
+        self.new_user = User("ahmed","ali")
 
 
-#     def tearDown(self):
+    def tearDown(self):
 
-#         User.user_list = []
+        User.user_list = []
 
-#     def test_init(self):
+    def test_init(self):
 
-#         self.assertEqual( self.new_user.user_name, "ahmed" )
-#         self.assertEqual( self.new_user.user_password, "ali" )
+        self.assertEqual( self.new_user.user_name, "ahmed" )
+        self.assertEqual( self.new_user.user_password, "ali" )
 
 #     def test_save_user(self):
 
