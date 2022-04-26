@@ -47,37 +47,37 @@ class TestCredential(unittest.TestCase):
 
         self.assertEqual( len(generated_password), 8 )   
     
-#     def test_display_credential(self):
+    def test_display_credential(self):
        
 
         
-#         self.new_credential.save_credential()
+        self.new_credential.save_credential()
 
-#         test_credential = Credential("liin","lenovo","4646")
+        test_credential = Credential("liin","lenovo","4646")
 
-#         test_credential.save_credential()
+        test_credential.save_credential()
 
-#         test_credential = Credential("liin","moo","4545")
+        test_credential = Credential("liin","moo","4545")
 
-#         test_credential.save_credential()
+        test_credential.save_credential()
         
-#         self.assertEqual( len(Credential.display_credential("liin")) , 2 )
+        self.assertEqual( len(Credential.display_credential("liin")) , 2 )
         
-#     def test_credential_exist(self):
+    def test_credential_exist(self):
         
         
 
         
-#         self.new_credential.save_credential()
+        self.new_credential.save_credential()
 
-#         test_credential = Credential("liin","lenovo","4646")
+        test_credential = Credential("liin","lenovo","4646")
 
-#         test_credential.save_credential()
+        test_credential.save_credential()
         
         
-#         credential_exists = Credential.credential_exist("lenovo")
+        credential_exists = Credential.credential_exist("lenovo")
         
-#         self.assertTrue(credential_exists)
+        self.assertTrue(credential_exists)
         
 
 # if __name__ == '__main__':
