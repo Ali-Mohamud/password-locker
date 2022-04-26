@@ -1,4 +1,4 @@
-from random import choic
+from random import choice
 import string
 
 
