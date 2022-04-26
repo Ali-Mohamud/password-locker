@@ -23,28 +23,28 @@ class User:
 
         return False
 
-#     @classmethod
-#     def log_in(cls, name, password):
+    @classmethod
+    def log_in(cls, name, password):
       
 
-#         for user in cls.user_list:
-#             if user.user_name == name and user.user_password == password:
-#                 return Credential.credential_list
+        for user in cls.user_list:
+            if user.user_name == name and user.user_password == password:
+                return Credential.credential_list
 
-#         return False
+        return False
 
-#     @classmethod
-#     def display_user(cls):
+    @classmethod
+    def display_user(cls):
         
-#         return cls.user_list
+        return cls.user_list
     
-#     @classmethod
-#     def user_exist(cls, name):
+    @classmethod
+    def user_exist(cls, name):
         
-#         for user in cls.user_list:
-#             if user.user_name == name:
-#                 return True
+        for user in cls.user_list:
+            if user.user_name == name:
+                return True
             
-#         return False
+        return False
 
 
