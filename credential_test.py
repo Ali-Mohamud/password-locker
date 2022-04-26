@@ -21,24 +21,24 @@ class TestCredential(unittest.TestCase):
         self.assertEqual( self.new_credential.credential_name, "moo" )
         self.assertEqual( self.new_credential.credential_password, "4545" )
 
-#     def test_save_credential(self):
+    def test_save_credential(self):
       
 
-#         self.new_credential.save_credential()
+        self.new_credential.save_credential()
 
-#         self.assertEqual( len(Credential.credential_list), 1 )
+        self.assertEqual( len(Credential.credential_list), 1 )
 
-#     def test_save_multiple_credentials(self):
+    def test_save_multiple_credentials(self):
         
 
         
-#         self.new_credential.save_credential()
+        self.new_credential.save_credential()
 
-#         test_credential = Credential("liin","lenovo","4646")
+        test_credential = Credential("liin","lenovo","4646")
 
-#         test_credential.save_credential()
+        test_credential.save_credential()
 
-#         self.assertEqual( len(Credential.credential_list), 2)
+        self.assertEqual( len(Credential.credential_list), 2)
 
 #     def test_generate_password(self):
        
