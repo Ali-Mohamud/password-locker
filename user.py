@@ -11,17 +11,17 @@ class User:
         self.user_name = user_name
         self.user_password = user_password
 
-#     def save_user(self):
-#         User.user_list.append(self)
+    def save_user(self):
+        User.user_list.append(self)
 
-#     @classmethod
-#     def find_credential(cls, name):
+    @classmethod
+    def find_credential(cls, name):
        
-#         for credential in Credential.credential_list:
-#             if credential.credential_name == name:
-#                 return True
+        for credential in Credential.credential_list:
+            if credential.credential_name == name:
+                return True
 
-#         return False
+        return False
 
 #     @classmethod
 #     def log_in(cls, name, password):
