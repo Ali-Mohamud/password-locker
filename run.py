@@ -7,23 +7,23 @@ def create_user(name, password):
 
     return new_user
 
-# def save_users(user):
+def save_users(user):
 
-#     user.save_user()
+    user.save_user()
 
-# def check_existing_users(name):
+def check_existing_users(name):
 
-#     return User.user_exist(name)
+    return User.user_exist(name)
 
-# def user_log_in(name, password):
+def user_log_in(name, password):
    
-#     log_in = User.log_in(name, password)
-#     if log_in != False:
-#         return User.log_in(name, password)
+    log_in = User.log_in(name, password)
+    if log_in != False:
+        return User.log_in(name, password)
 
-# def display_users():
+def display_users():
 
-#     return User.display_user()
+    return User.display_user()
 
 # def create_credentail(user_password, name, password):
 
